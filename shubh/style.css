@@ -437,9 +437,12 @@ p {
 }
 .link {
   text-decoration: none;
-  color:crimson;
-  border: 1px dotted white;
-  border
+  color: crimson;
+  font-size: 20px;
+}
+
+.link:hover {
+  color: #fff;
 }
 #projects .project-img:after {
   content: "";
