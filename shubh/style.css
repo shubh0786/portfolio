@@ -420,7 +420,7 @@ p {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  background-image: linear-gradient(60deg, #29323c 0%, #01070e 100%);
   color: white;
 }
 
@@ -461,7 +461,7 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  background-image: linear-gradient(60deg, #252729 0%, #01070e 100%);
   opacity: 0.5;
 }
 
@@ -587,7 +587,7 @@ p {
 
 /* Footer */
 #footer {
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  background-image: linear-gradient(60deg, #252729 0%, #01070e 100%);
 }
 
 #footer .footer {
