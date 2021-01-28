@@ -17,7 +17,8 @@ a {
 }
 
 body {
-  background: url(./img/nbb.jpg);
+  background: linear-gradient(rgba(94, 92, 92, 0.582), rgba(15, 0, 4, 0.349)),
+    url(./img/nbb.jpg);
   background-position: center;
   background-size: cover;
   height: 100%;
