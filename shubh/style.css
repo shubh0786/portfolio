@@ -16,6 +16,13 @@ a {
   text-decoration: none;
 }
 
+body {
+  background: url(./img/nbb.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+}
 .container {
   min-height: 100vh;
   width: 100%;
@@ -31,7 +38,7 @@ img {
 }
 
 p {
-  color: black;
+  color: whitesmoke;
   font-size: 1.4rem;
   margin-top: 5px;
   line-height: 2.5rem;
@@ -42,7 +49,7 @@ p {
 .section-title {
   font-size: 4rem;
   font-weight: 300;
-  color: black;
+  color: white;
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -52,7 +59,9 @@ p {
 .section-title span {
   color: crimson;
 }
-
+.section-h {
+  color: #fff;
+}
 .cta {
   display: inline-block;
   padding: 10px 30px;
@@ -492,10 +501,12 @@ p {
 
 #about .col-right p {
   margin-bottom: 20px;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 #about .col-right .cta {
-  color: black;
+  color: whitesmoke;
   margin-bottom: 50px;
   padding: 10px 20px;
   font-size: 2rem;
@@ -543,12 +554,12 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0px 0px 18px 0 #0000002c;
+  box-shadow: 0px 0px 18px 0 #aca4a4da;
   transition: 0.3s ease box-shadow;
 }
 
 #contact .contact-item:hover {
-  box-shadow: 0px 0px 5px 0 #0000002c;
+  box-shadow: 0px 0px 5px 0 #fc0d0dea;
 }
 
 #contact .icon {
@@ -561,12 +572,14 @@ p {
   font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 5px;
+  color: #fff;
 }
 
 #contact .contact-info h2 {
   font-size: 1.3rem;
   line-height: 2rem;
   font-weight: 500;
+  color: #fff;
 }
 
 /*End contact Section */
